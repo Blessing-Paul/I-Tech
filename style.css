@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  background-color: #000 !important;
+}
+
+.hero {
+  /* height: 100vh; */
+  background: url("./images/div.home-hero-container.svg") no-repeat center
+    center;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.hero-content {
+   color: black;
+}
+
+.hero-content h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 900 !important;
+}
+
+.hero-content p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-justify: inter-word;
+  margin-top: 2rem;
+}
+
+.hero-content button{
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 3rem;
+}
+
+/* .navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.btn-dark {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+@media (max-width: 991.98px) { /* Adjust breakpoint as needed */
+  .navbar {
+    background-color: #fff; /* Color when collapsed */
+  }
+
+  .hero-content p{
+    font-size: 12px;
+  }
+
+  .hero-content button{
+    margin-top: 0 !important;
+  }
+}
+
+.btn-dark:hover {
+  background-color: #28231d !important;
+}
+
+.menu-link {
+  font-size: 1rem !important;
+  font-family: "Manrope", sans-serif;
+  font-weight: 900 !important;
+  color: black !important;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.menu-btn {
+  padding: 0.5rem 3rem !important;
+}
+
+.heading {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff !important;
+}
+
+.sub-heading {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  color: #84a5aa;
+}
+
+.svg-bg {
+  background: url("./images/div.testimonial-card.svg") no-repeat;
+  background-size: cover;
+}
+
+.ceo-title {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+}
+
+.ceo-subtitle {
+  font-family: "Manrope", sans-serif;
+  color: #84a5aa;
+}
+
+.platform h2 {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.expertise {
+  background: url("./images/div.grid.svg") no-repeat center center;
+  padding: 3rem !important;
+  background-size: cover;
+}
+
+.exp-card {
+  background-color: #111827bf !important;
+  font-family: "Inter", sans-serif;
+}
+
+.strategy {
+  background: url("./images/Section.svg") no-repeat center center;
+  background-size: cover;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.strategy p {
+  font-family: "Manrope", sans-serif;
+}
+
+.subscribe {
+  margin-top: 90px;
+}
+
+.subscribe input::placeholder {
+  font-size: 10px;
+  color: black;
+}
+
+.text-gradient{
+  color: #62F9CE;
+}
+
+.text-sub{
+  font-family: "Manrope", sans-serif;
+}
+
+.card{
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn-info{
+  background-color: #62F9CE !important;
+  border-color: #62F9CE !important;
+}
