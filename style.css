@@ -7,6 +7,29 @@ body {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
   background-color: #000 !important;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    opacity: 0;
+  }
+}
+
+.header.active{
+  background-image: linear-gradient(180deg, #CEFFB8 0%, #91F2CF 59%, #3CFFCE 100%);
+  /* background: #512a10 !important; */
 }
 
 .hero {
@@ -57,7 +80,9 @@ body {
 
 @media (max-width: 991.98px) { /* Adjust breakpoint as needed */
   .navbar {
-    background-color: #fff; /* Color when collapsed */
+    background: linear-gradient(180deg, #CEFFB8 0%, #91F2CF 59%, #3CFFCE 100%);
+
+    /* Color when collapsed */
   }
 
   .hero-content p{
@@ -164,4 +189,10 @@ body {
 .btn-info{
   background-color: #62F9CE !important;
   border-color: #62F9CE !important;
+}
+
+.footer{
+  color: #fff;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif
 }
