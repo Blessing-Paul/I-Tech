@@ -40,8 +40,25 @@ body {
   background: transparent;
 }
 
+.bold-heading {
+  font-weight: 900;
+}
+
 .hero-content {
-  color: black;
+  min-height: 100vh; /* Ensures the content takes up the full height of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-heading {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 30px;
 }
 
 .hero-content h1 {
@@ -92,9 +109,9 @@ body {
     font-size: 12px;
   }
 
-  .hero-heading {
+  /* .hero-heading {
     font-size: 30px !important;
-  }
+  } */
 
   .hero-content button {
     margin-top: 0 !important;
@@ -218,6 +235,6 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-.border-card{
+.border-card {
   border: 10px solid white !important;
 }
