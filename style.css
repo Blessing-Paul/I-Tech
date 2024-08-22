@@ -30,6 +30,10 @@ body {
   background: linear-gradient(180deg, #ffc059 100%, #343d48 59%, #0f2137 100%);
 }
 
+.nav-img.active{
+  width: 20% !important;
+}
+
 .hero {
   /* height: 100vh; */
   background: linear-gradient(180deg, #ffc059 0%, #343d48 59%, #0f2137 100%);
@@ -208,18 +212,7 @@ p {
   font-family: "Manrope", sans-serif;
 }
 
-.subscribe {
-  margin-top: 90px;
-}
 
-.subscribe input {
-  color: white !important;
-}
-
-.subscribe input::placeholder {
-  font-size: 10px;
-  color: white;
-}
 
 .text-gradient {
   color: #62f9ce;
@@ -246,4 +239,25 @@ p {
 
 .border-card {
   border: 10px solid white !important;
+}
+
+.subscribe{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #353448;
+  padding: 5rem;
+  color: white;
+}
+
+.sub-input{
+  outline: none !important;
+  background-color: #454457 !important;
+}
+
+.sub-input::placeholder{
+  font-size: 12px !important;
+  color: #fff !important;
+}
+
+.input-text{
+  color: #020718 !important;
 }
